@@ -1,1 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+/* Apply a dark gradient background to the whole page */
+body {
+    background:#333333;
+    color: #f0f0f0;
+
+  }
+  
+  /* Additional styling for form and table cards */
+
+  

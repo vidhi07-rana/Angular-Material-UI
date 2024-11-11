@@ -1,0 +1,148 @@
+/* Styling for the form card */
+.form-card {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 24px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  background-color: #2e2e2e;
+  color: #e0e0e0;
+}
+
+.form-card mat-card-title {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #ffcccb;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+/* Form fields */
+.form-card mat-form-field {
+  width: 100%;
+}
+
+.form-card mat-form-field input {
+  color: #f0f0f0;
+}
+
+.form-card mat-form-field .mat-form-field-label {
+  color: #ffcccb;
+}
+
+/* Buttons in vertical direction with styling */
+.form-card button {
+  width: 100%;
+  margin-top: 12px;
+  padding: 10px;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+button[color="primary"] {
+  background-color: #5a8dee;
+  color: white;
+}
+
+button[color="primary"]:hover {
+  background-color: #4573c5;
+  transform: scale(1.05);
+}
+
+button[color="accent"] {
+  background-color: #e57373;
+  color: white;
+}
+
+button[color="accent"]:hover {
+  background-color: #d32f2f;
+  transform: scale(1.05);
+}
+
+/* Styling for the table card */
+.table-card {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 24px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  background-color: #2e2e2e;
+  color: #e0e0e0;
+}
+
+.table-card mat-card-title {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #ffcccb;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+table.mat-elevation-z8 {
+  width: 100%;
+  margin-top: 16px;
+  background-color: #3c3c3c;
+}
+
+.mat-header-cell, .mat-cell {
+  color: #f0f0f0;
+}
+
+.mat-header-cell {
+  font-weight: bold;
+}
+
+.mat-paginator {
+  margin-top: 16px;
+  color: #e0e0e0;
+}
+
+.mat-icon-button {
+  color: #ffcccb;
+}
+
+.mat-icon-button:hover {
+  color: #ffffff;
+}
+/* Styling for the form card */
+.form-card {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 32px; /* Increased padding for more spacious look */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  background-color: #2a2a2a;
+  color: #e0e0e0;
+  border: 1px solid #444444;
+}
+
+.form-card mat-card-title {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #ffcccb;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+/* Styling for the table card */
+.table-card {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 32px; /* Increased padding for a consistent spacious look */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  background-color: #2a2a2a;
+  color: #e0e0e0;
+  border: 1px solid #444444;
+}
+
+.table-card mat-card-title {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #ffcccb;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
